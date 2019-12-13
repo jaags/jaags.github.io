@@ -11,8 +11,8 @@ gem "jekyll-data"
 gem "jemoji"
 gem "jekyll-include-cache"
 
-# spec.add_development_dependency "bundler"
-# spec.add_development_dependency "rake"
+gem "bundler"
+rake "rake"
 
 gem "jekyll-theme-primer", group: :jekyll_plugins
 gem "jekyll-jupyter-notebook", group: :jekyll_plugins
