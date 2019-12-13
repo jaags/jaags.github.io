@@ -1,0 +1,1184 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Interview Questions - Jagadeesh Kumar</title>
+<meta name="description" content="      Differentiate between AI, ML and DP?        Is Deep learning better than ML?        Whatt is Perceptron? How does it work?        What is the role of weights and bias?        What are activation functions?        What is the significance of a Cost/Loss function?        What is gradient descent?        What are the beenifits of mini-batch gradient descent?        What are the steps for using a gradient descent algorithm?        Pseudocode a gradient descent in python?  ">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Jagadeesh Kumar">
+<meta property="og:title" content="Interview Questions">
+<meta property="og:url" content="http://localhost:4000/interview_questions/">
+
+
+  <meta property="og:description" content="      Differentiate between AI, ML and DP?        Is Deep learning better than ML?        Whatt is Perceptron? How does it work?        What is the role of weights and bias?        What are activation functions?        What is the significance of a Cost/Loss function?        What is gradient descent?        What are the beenifits of mini-batch gradient descent?        What are the steps for using a gradient descent algorithm?        Pseudocode a gradient descent in python?  ">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/IMG-20190710-WA0000.jpg">
+
+
+
+  <meta name="twitter:site" content="@Jaags">
+  <meta name="twitter:title" content="Interview Questions">
+  <meta name="twitter:description" content="      Differentiate between AI, ML and DP?        Is Deep learning better than ML?        Whatt is Perceptron? How does it work?        What is the role of weights and bias?        What are activation functions?        What is the significance of a Cost/Loss function?        What is gradient descent?        What are the beenifits of mini-batch gradient descent?        What are the steps for using a gradient descent algorithm?        Pseudocode a gradient descent in python?  ">
+  <meta name="twitter:url" content="http://localhost:4000/interview_questions/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/images/IMG-20190710-WA0000.jpg">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2018-08-09T00:00:00-07:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/interview_questions/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Jagadeesh Kumar",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Jagadeesh Kumar Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Jagadeesh Kumar</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/portfolio/" >Portfolio</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/blog/" >Blog</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about/" >About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/resume/" >Resume</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Basics</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/vector_norm/" class="">Vector Norm</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/sigmoid_function/" class="">Sigmoid Function</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/sigmoid_gradient/" class="">Sigmoid Gradient</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/reshaping_arrays/" class="">Reshaping arrays</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/normalizaing_rows/" class="">Normalizing Rows</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/broadcasting_softmax_function/" class="">Broadcasting and Softmax Function</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/vectorization/" class="">Vectorization</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/l1_l2_loss_function/" class="">L1 and L2 Loss Function</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Cheat Sheets</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/interview_questions/" class="active">Interview Questions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/scala_cs/" class="">Scala</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/numpy_cs/" class="">Numpy</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/ml_algorithms_cs/" class="">ML_Algorithms</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/unix_cs/" class="">Unix</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Architectures</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/arch_chatbot/" class="">Architecture_Chatbot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/arch_self_driving/" class="">Self-Driving Car</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Projects</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/chatbot/" class="">Chatbot</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/article_genearation/" class="">Artcile Generation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/article_genearation/" class="">Question To Am Image</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Supervised Learning</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_discriminative_model/" class="">Discriminative Algorithm</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_generative_model/" class="">Generative Algorithm</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_svm/" class="">Support Vector Machine</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_bias_variance_tradeoff/" class="">Bias and Variance Tradeoff</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_learning_theory/" class="">Learning Theory</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_regularization_model_selection/" class="">Regularization and Model Selection</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_online_learning_perceptron/" class="">Online Learning and Perceptron</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_trees/" class="">Decision Trees</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/sv_boost/" class="">Boosting</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Deep Learning</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/dl_neural_network/" class="">Neural Networks</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/dl_propagtion/" class="">Backpropagation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Unsupervised Learning</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/usv_kmeans/" class="">K-means Clustering</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/MachineLearning/usv_em/" class="">EM Algorithm</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Production</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/dfdasf/" class="">Deployment</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/sadf/" class="">Infrastructure</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Interview Questions">
+    <meta itemprop="description" content="      Differentiate between AI, ML and DP?        Is Deep learning better than ML?        Whatt is Perceptron? How does it work?        What is the role of weights and bias?        What are activation functions?        What is the significance of a Cost/Loss function?        What is gradient descent?        What are the beenifits of mini-batch gradient descent?        What are the steps for using a gradient descent algorithm?        Pseudocode a gradient descent in python?  ">
+    <meta itemprop="datePublished" content="August 09, 2018">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Interview Questions
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-cog"></i> On This Page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#differentiate-between-ai-ml-and-dp">Differentiate between AI, ML and DP?</a></li>
+  <li><a href="#is-deep-learning-better-than-ml">Is Deep learning better than ML?</a></li>
+  <li><a href="#whatt-is-perceptron-how-does-it-work">Whatt is Perceptron? How does it work?</a></li>
+  <li><a href="#what-is-the-role-of-weights-and-bias">What is the role of weights and bias?</a></li>
+  <li><a href="#what-are-activation-functions">What are activation functions?</a></li>
+  <li><a href="#what-is-the-significance-of-a-costloss-function">What is the significance of a Cost/Loss function?</a></li>
+  <li><a href="#what-is-gradient-descent">What is gradient descent?</a></li>
+  <li><a href="#what-are-the-beenifits-of-mini-batch-gradient-descent">What are the beenifits of mini-batch gradient descent?</a></li>
+  <li><a href="#what-are-the-steps-for-using-a-gradient-descent-algorithm">What are the steps for using a gradient descent algorithm?</a></li>
+  <li><a href="#pseudocode-a-gradient-descent-in-python">Pseudocode a gradient descent in python?</a></li>
+  <li><a href="#what-are-the-different-parts-of-a-multi-layer-perceptron">What are the different parts of a multi-layer perceptron?</a></li>
+  <li><a href="#what-is-data-normalization-and-why-do-we-need-it">What is data normalization and why do we need it?</a></li>
+  <li><a href="#which-is-better-deep-networks-or-shallow-ones-why">Which is better, deep networks or shallow ones? Why?</a></li>
+  <li><a href="#why-is-wieght-initialization-import-in-neural-networks">Why is wieght initialization import in neural networks?</a></li>
+  <li><a href="#difference-between-a-feed-forward-and-back-propogation-neural-network">Difference between a feed-forward and back propogation neural network?</a></li>
+  <li><a href="#what-are-hyperparameters-name-a-few-used-in-any-neural-network">What are Hyperparameters? Name a few used in any neural network?</a></li>
+  <li><a href="#explain-the-different-hypparameters-related-to-netowk-and-training">Explain the different hypparameters related to netowk and training?</a></li>
+  <li><a href="#what-is-a-dropout">What is a dropout?</a></li>
+  <li><a href="#in-training-a-neural-network-the-loss-does-not-decrease-in-the-few-starting-epochs">In training a neural network, the loss does not decrease in the few starting epochs?</a></li>
+  <li><a href="#name-a-few-deep-learning-frameworks">Name a few deep learning frameworks?</a></li>
+  <li><a href="#what-are-tensors">What are Tensors?</a></li>
+  <li><a href="#list-a-few-advantages-of-tensorflow">List a few advantages of TensorFlow?</a></li>
+  <li><a href="#what-is-computational-graph">What is computational graph?</a></li>
+  <li><a href="#what-is-a-cnn">What is a CNN?</a></li>
+  <li><a href="#explain-the-different-layers-of-cnn">Explain the different layers of CNN?</a></li>
+  <li><a href="#what-are-rnn">what are RNN?</a></li>
+  <li><a href="#what-are-some-issues-faced-while-training-a-rnn">What are some issues faced while training a RNN?</a></li>
+  <li><a href="#what-is-vanishing-gradient-decent-how-is-this-harmful">What is Vanishing Gradient decent? How is this harmful?</a></li>
+  <li><a href="#what-is-exploding-gradient-decent">What is Exploding Gradient decent?</a></li>
+  <li><a href="#explain-the-importance-of-lstm">Explain the importance of LSTM?</a></li>
+  <li><a href="#what-are-capsules-in-capsule-neural-network">What are capsules in Capsule Neural Network?</a></li>
+  <li><a href="#explain-autoencoders-and-its-uses">Explain Autoencoders and it’s uses?</a></li>
+  <li><a href="#in-terms-of-dimensionality-reduction-how-does-autoencoders-differ-from-pcas">In terms of Dimensionality reduction, How does Autoencoders differ from PCAs?</a></li>
+  <li><a href="#give-some-real-life-examples-where-autoencoders-can-be-applied">Give some real-life examples where autoencoders can be applied?</a></li>
+  <li><a href="#what-are-different-layers-of-autoencoders">What are different layers of Autoencoders?</a></li>
+  <li><a href="#what-is-a-bottlenect-in-autoencoders-and-why-is-it-used">What is a bottlenect in autoencoders and why is it used?</a></li>
+  <li><a href="#is-there-any-variations-of-autoencoders">Is there any variations of Autoencoders?</a></li>
+  <li><a href="#what-are-deep-autoencoders">What are Deep Autoencoders?</a></li>
+  <li><a href="#what-is-a-restricted-boltzmann-machine">What is a Restricted Boltzmann Machine?</a></li>
+  <li><a href="#how-does-rbm-differ-from-autoencoders">How does RBM differ from Autoencoders?</a></li>
+  <li><a href="#what-are-some-limitations-of-deep-learning">What are some limitations of deep learning?</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <ol>
+  <li>
+    <h3 id="differentiate-between-ai-ml-and-dp">Differentiate between AI, ML and DP?</h3>
+  </li>
+  <li>
+    <h3 id="is-deep-learning-better-than-ml">Is Deep learning better than ML?</h3>
+  </li>
+  <li>
+    <h3 id="whatt-is-perceptron-how-does-it-work">Whatt is Perceptron? How does it work?</h3>
+  </li>
+  <li>
+    <h3 id="what-is-the-role-of-weights-and-bias">What is the role of weights and bias?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-activation-functions">What are activation functions?</h3>
+  </li>
+  <li>
+    <h3 id="what-is-the-significance-of-a-costloss-function">What is the significance of a Cost/Loss function?</h3>
+  </li>
+  <li>
+    <h3 id="what-is-gradient-descent">What is gradient descent?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-the-beenifits-of-mini-batch-gradient-descent">What are the beenifits of mini-batch gradient descent?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-the-steps-for-using-a-gradient-descent-algorithm">What are the steps for using a gradient descent algorithm?</h3>
+  </li>
+  <li>
+    <h3 id="pseudocode-a-gradient-descent-in-python">Pseudocode a gradient descent in python?</h3>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>params = [wieghts_hidden, weights_output,bias_hidden, bias_output]
+def sgd(cost, params, lr=0.05)
+grads = T.grad(cost=cost, wrt=params)
+for p, g in zip(params, grads)
+        updates.append([p, p-g*lr])
+return update
+update = sgd(cost, params) 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <h3 id="what-are-the-different-parts-of-a-multi-layer-perceptron">What are the different parts of a multi-layer perceptron?</h3>
+  </li>
+  <li>
+    <h3 id="what-is-data-normalization-and-why-do-we-need-it">What is data normalization and why do we need it?</h3>
+  </li>
+  <li>
+    <h3 id="which-is-better-deep-networks-or-shallow-ones-why">Which is better, deep networks or shallow ones? Why?</h3>
+  </li>
+  <li>
+    <h3 id="why-is-wieght-initialization-import-in-neural-networks">Why is wieght initialization import in neural networks?</h3>
+  </li>
+  <li>
+    <h3 id="difference-between-a-feed-forward-and-back-propogation-neural-network">Difference between a feed-forward and back propogation neural network?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-hyperparameters-name-a-few-used-in-any-neural-network">What are Hyperparameters? Name a few used in any neural network?</h3>
+  </li>
+  <li>
+    <h3 id="explain-the-different-hypparameters-related-to-netowk-and-training">Explain the different hypparameters related to netowk and training?</h3>
+
+    <ul>
+      <li>
+        <h2 id="network-hypermaters">Network Hypermaters</h2>
+        <ol>
+          <li>No. of hidden layers</li>
+          <li>Weight initialization</li>
+          <li>Actication function</li>
+        </ol>
+      </li>
+      <li>
+        <h2 id="training-hyperparameters">Training Hyperparameters</h2>
+        <ol>
+          <li>Batch size</li>
+          <li>No. of Epoch</li>
+          <li>Momentum</li>
+          <li>Learning Rate</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-is-a-dropout">What is a dropout?</h3>
+
+    <ul>
+      <li>It’s a reqularization technique to avoid overfitting thus increasing the generalizing power.</li>
+      <li>Dropout value 20% - 50% of neurons is a good start</li>
+      <li>A probability too low has minimal effect and too high results in under-learning by the network.</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="in-training-a-neural-network-the-loss-does-not-decrease-in-the-few-starting-epochs">In training a neural network, the loss does not decrease in the few starting epochs?</h3>
+
+    <ul>
+      <li>The learning rate is low</li>
+      <li>Regularization parameter is high</li>
+      <li>Stuck at local-minima</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="name-a-few-deep-learning-frameworks">Name a few deep learning frameworks?</h3>
+
+    <ul>
+      <li>Tensorflow</li>
+      <li>Keras</li>
+      <li>PyTorch</li>
+      <li>Chainer</li>
+      <li>Caffe</li>
+      <li>Microsoft CNTK</li>
+      <li>IBM Congition</li>
+      <li>AmexNet</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-are-tensors">What are Tensors?</h3>
+
+    <ul>
+      <li>They are multi-dimensional arrays to represent data having higher dimensions, where dimensions refer to different features present in the data set.</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="list-a-few-advantages-of-tensorflow">List a few advantages of TensorFlow?</h3>
+
+    <ul>
+      <li>Trainable on CPU or GPU</li>
+      <li>Auto differentiation capabilities</li>
+      <li>Advanced support for threads, asynchronous computation</li>
+      <li>Customizable and open source</li>
+      <li>Platform flexibility</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-is-computational-graph">What is computational graph?</h3>
+
+    <ul>
+      <li>Series of tensorflow operations arranged as nodes in the graph. Each node takes zero or more tensors as input and produces a tensor as output.</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-is-a-cnn">What is a CNN?</h3>
+
+    <ul>
+      <li>
+        <p>Convolutional neural network (CNN or ConvNet) is a class of deep neural netorks, most commonly applied to analyzing visual imagery.</p>
+      </li>
+      <li>
+        <p>Unlike neural networks, where the input is a vector, here the input is a multi-channeled image. CNNs use a variation of multilayer perceptrons designed to require minimal pre-processing.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="explain-the-different-layers-of-cnn">Explain the different layers of CNN?</h3>
+
+    <ul>
+      <li>Input layer</li>
+      <li>Conv + RELU layer</li>
+      <li>Pooling</li>
+      <li>Conv + RELU layer</li>
+      <li>Pooling layer</li>
+      <li>Flatten</li>
+      <li>Fully Connected</li>
+      <li>Softmax</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-are-rnn">what are RNN?</h3>
+
+    <ul>
+      <li>They are type of neural network designed to recognize patterns in sequence of data, such as text, genomes, handwriting, the spoken words, numerical times series data.</li>
+      <li>RNN use backpropogration algorithm for training because of their internal memory, RNN’s are capable of remember important things about the input they received, that enables to be very precise what’s coming next.</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-are-some-issues-faced-while-training-a-rnn">What are some issues faced while training a RNN?</h3>
+
+    <ul>
+      <li>There are some issues with Back-propagation through time (BTT)
+        <ul>
+          <li>Vanishing Gradient</li>
+          <li>Exploading Gradient</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-is-vanishing-gradient-decent-how-is-this-harmful">What is Vanishing Gradient decent? How is this harmful?</h3>
+  </li>
+  <li>
+    <h3 id="what-is-exploding-gradient-decent">What is Exploding Gradient decent?</h3>
+  </li>
+  <li>
+    <h3 id="explain-the-importance-of-lstm">Explain the importance of LSTM?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-capsules-in-capsule-neural-network">What are capsules in Capsule Neural Network?</h3>
+  </li>
+  <li>
+    <h3 id="explain-autoencoders-and-its-uses">Explain Autoencoders and it’s uses?</h3>
+  </li>
+  <li>
+    <h3 id="in-terms-of-dimensionality-reduction-how-does-autoencoders-differ-from-pcas">In terms of Dimensionality reduction, How does Autoencoders differ from PCAs?</h3>
+  </li>
+  <li>
+    <h3 id="give-some-real-life-examples-where-autoencoders-can-be-applied">Give some real-life examples where autoencoders can be applied?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-different-layers-of-autoencoders">What are different layers of Autoencoders?</h3>
+
+    <ul>
+      <li>
+        <p>Encoder - compresses the input into a latent space representation.</p>
+      </li>
+      <li>
+        <p>Code - represents the compressed part of network, which later fed to decoder.</p>
+      </li>
+      <li>
+        <p>Decoder - As name suggest, this layer decodes the encoded image back to orginal dimension.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-is-a-bottlenect-in-autoencoders-and-why-is-it-used">What is a bottlenect in autoencoders and why is it used?</h3>
+  </li>
+  <li>
+    <h3 id="is-there-any-variations-of-autoencoders">Is there any variations of Autoencoders?</h3>
+
+    <ul>
+      <li>Convolution</li>
+      <li>Sparse</li>
+      <li>Deep</li>
+      <li>Contractive</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="what-are-deep-autoencoders">What are Deep Autoencoders?</h3>
+  </li>
+  <li>
+    <h3 id="what-is-a-restricted-boltzmann-machine">What is a Restricted Boltzmann Machine?</h3>
+  </li>
+  <li>
+    <h3 id="how-does-rbm-differ-from-autoencoders">How does RBM differ from Autoencoders?</h3>
+  </li>
+  <li>
+    <h3 id="what-are-some-limitations-of-deep-learning">What are some limitations of deep learning?</h3>
+  </li>
+  <li>###</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#data-science" class="page__taxonomy-item" rel="tag">data science</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#nlp" class="page__taxonomy-item" rel="tag">NLP</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#similarities-measure" class="page__taxonomy-item" rel="tag">similarities measure</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-08-09T00:00:00-07:00">August 09, 2018</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=Jaags&text=Interview+Questions%20http%3A%2F%2Flocalhost%3A4000%2Finterview_questions%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Finterview_questions%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Finterview_questions%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Finterview_questions%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/broadcasting_softmax_function/" class="pagination--pager" title="Broadcasting and the Softmax Function
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">Related Posts</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "http://localhost:4000/images/perceptron/percept.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/relational-algebra/" rel="permalink">Relational Algebra &amp; SQL
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "http://localhost:4000/images/IMG_20181114_165012.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/visualization-for-data/" rel="permalink">Visualization For Data
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Data Wrangling, Data Science, Messy Data
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "http://localhost:4000/images/perceptron/percept.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/linearity-check/" rel="permalink">Linearity Check
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Data Wrangling, Data Science, Messy Data, Computer Vision
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "http://localhost:4000/images/perceptron/percept.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/mobile-glass-defects-detection/" rel="permalink">Mobile Glass defects detection
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Data Wrangling, Data Science, Messy Data, Computer Vision
+</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+  <input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  <div id="results" class="results"></div>
+</div>
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/Jaags"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+      <li><a href="https://www.facebook.com/Jaags"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    
+    
+      <li><a href="https://github.com/https://github.com/jaags/data_science_blog/"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+  <!--  <li><a href="http://localhost:4000/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Jagadeesh Kumar. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+  
+  
+  <script src="http://localhost:4000/assets/js/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/js/lunr/lunr-store.js"></script>
+  <script src="http://localhost:4000/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+<!-- Bootstrap -->
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+  crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
