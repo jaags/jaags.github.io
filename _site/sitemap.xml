@@ -14,11 +14,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/vector_norm/</loc>
-<lastmod>2019-12-13T12:56:27-08:00</lastmod>
+<lastmod>2019-12-13T18:07:18-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/broadcasting_softmax_function/</loc>
-<lastmod>2019-12-13T12:56:27-08:00</lastmod>
+<lastmod>2019-12-13T18:07:18-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/interview_questions/</loc>
@@ -88,6 +88,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/_pages/tag/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/how%20install%20jekyll/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>

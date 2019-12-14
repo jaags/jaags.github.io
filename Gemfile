@@ -13,7 +13,7 @@ gem "jekyll-include-cache"
 
 gem "bundler"
 gem "rake"
-gem 'github-pages'
+gem "github-pages", group: :jekyll_plugins
 gem "jekyll-theme-primer", group: :jekyll_plugins
 gem "jekyll-jupyter-notebook", group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
