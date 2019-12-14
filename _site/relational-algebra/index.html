@@ -237,7 +237,7 @@
 
 <p>Given relations <script type="math/tex">R</script> and <script type="math/tex">S</script>, <script type="math/tex">R \cup S = \\{T \| T \in R \vee T \in S\\}</script>. In SQL, this is written as</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT column1 [, column2 ]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT column1 [, column2 ]
 FROM table1 [, table2 ]
 [WHERE condition]
 
@@ -252,7 +252,7 @@ FROM table1 [, table2 ]
 
 <p>Given relations <script type="math/tex">R</script> and <script type="math/tex">S</script>, <script type="math/tex">R \cap S = \\{T \| T \in R \wedge T \in S\\}</script>. In SQL, this is written as</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT column1 [, column2 ]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT column1 [, column2 ]
 FROM table1 [, table2 ]
 [WHERE condition]
 
@@ -267,7 +267,7 @@ FROM table1 [, table2 ]
 
 <p>Given relations <script type="math/tex">R</script> and <script type="math/tex">S</script>, <script type="math/tex">R \setminus S = \\{T \| T \in R \wedge T \notin S\\}</script>. In SQL, this is commonly written as</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT column1 [, column2 ]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT column1 [, column2 ]
 FROM table1 [, table2 ]
 [WHERE condition]
 
@@ -278,37 +278,37 @@ FROM table1 [, table2 ]
 [WHERE condition]
 </code></pre></div></div>
 
-<p>However, a <code class="highlighter-rouge">LEFT JOIN</code> operator can also perform the same functionality.</p>
+<p>However, a <code class="language-plaintext highlighter-rouge">LEFT JOIN</code> operator can also perform the same functionality.</p>
 
 <h2 id="selection-sigma">Selection <script type="math/tex">\sigma</script></h2>
 
 <p>Given relation <script type="math/tex">R</script>, <script type="math/tex">\sigma_{p}(R)</script> is selecting typles that satisfy predicate <script type="math/tex">p = a \theta b</script> or <script type="math/tex">p = a \theta v</script> from a relation <script type="math/tex">R</script>. <script type="math/tex">a</script> and <script type="math/tex">b</script> are attribute names, <script type="math/tex">v</script> is a value constant, and <script type="math/tex">\theta</script> is a binary operation in <script type="math/tex">% <![CDATA[
-\\{<. \le, =, \neq, \ge, >\\} %]]></script>. In SQL, this is simply the <code class="highlighter-rouge">WHERE</code> keyword. Given table <code class="highlighter-rouge">R</code>:</p>
+\\{<. \le, =, \neq, \ge, >\\} %]]></script>. In SQL, this is simply the <code class="language-plaintext highlighter-rouge">WHERE</code> keyword. Given table <code class="language-plaintext highlighter-rouge">R</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
 FROM R
 [WHERE predicate condition]
 </code></pre></div></div>
 
 <h2 id="projection-prod">Projection <script type="math/tex">\prod</script></h2>
 
-<p>Given relation <script type="math/tex">R</script>, <script type="math/tex">\prod_{a_1, ..., a_n}(R)</script> is projecting a set obtained when the components of relation <script type="math/tex">R</script> are restricted to the set <script type="math/tex">\\{a_1, ..., a_n\\}</script>. In SQL, the <code class="highlighter-rouge">SELECT</code> operator performs this functionality. Given table <code class="highlighter-rouge">R</code> with attributes <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">c</code></p>
+<p>Given relation <script type="math/tex">R</script>, <script type="math/tex">\prod_{a_1, ..., a_n}(R)</script> is projecting a set obtained when the components of relation <script type="math/tex">R</script> are restricted to the set <script type="math/tex">\\{a_1, ..., a_n\\}</script>. In SQL, the <code class="language-plaintext highlighter-rouge">SELECT</code> operator performs this functionality. Given table <code class="language-plaintext highlighter-rouge">R</code> with attributes <code class="language-plaintext highlighter-rouge">a</code>, <code class="language-plaintext highlighter-rouge">b</code>, <code class="language-plaintext highlighter-rouge">c</code></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT a, b, c
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT a, b, c
 FROM R;
 </code></pre></div></div>
 
-<p><em>Fun Fact</em>: the query language from Azure Data Explorer actually has a <code class="highlighter-rouge">project</code> keyword that behaves exactly like this. Given table <code class="highlighter-rouge">R</code> with attributes <code class="highlighter-rouge">a</code>, <code class="highlighter-rouge">b</code>, <code class="highlighter-rouge">c</code>:</p>
+<p><em>Fun Fact</em>: the query language from Azure Data Explorer actually has a <code class="language-plaintext highlighter-rouge">project</code> keyword that behaves exactly like this. Given table <code class="language-plaintext highlighter-rouge">R</code> with attributes <code class="language-plaintext highlighter-rouge">a</code>, <code class="language-plaintext highlighter-rouge">b</code>, <code class="language-plaintext highlighter-rouge">c</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>R
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>R
 | project a, b, c
 </code></pre></div></div>
 
 <h2 id="products-times">Products <script type="math/tex">\times</script></h2>
 
-<p>Given relations <script type="math/tex">R</script> and <script type="math/tex">S</script>, <script type="math/tex">R \times S = \\{(r,s) \| r \in R and s \in S\\}</script>. In SQL, this is known as a <code class="highlighter-rouge">CROSS JOIN</code>:</p>
+<p>Given relations <script type="math/tex">R</script> and <script type="math/tex">S</script>, <script type="math/tex">R \times S = \\{(r,s) \| r \in R and s \in S\\}</script>. In SQL, this is known as a <code class="language-plaintext highlighter-rouge">CROSS JOIN</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * 
 FROM table1 
 CROSS JOIN table2;
 </code></pre></div></div>
@@ -323,9 +323,9 @@ CROSS JOIN table2;
 
 <script type="math/tex; mode=display">R \Join S = \\{r \cup s \| r \in R \wedge s \in S \wedge \text{Fun}(r \cup s)\\}</script>
 
-<p>In SQL, this is known as the <code class="highlighter-rouge">NATURAL JOIN</code>:</p>
+<p>In SQL, this is known as the <code class="language-plaintext highlighter-rouge">NATURAL JOIN</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT * 
 FROM table1 
 NATURAL JOIN table2;
 </code></pre></div></div>
@@ -336,9 +336,9 @@ NATURAL JOIN table2;
 
 <h2 id="renaming-rho">Renaming <script type="math/tex">\rho</script></h2>
 
-<p>Given relation <script type="math/tex">R</script>, <script type="math/tex">\rho_{R(a_1, ..., a_n}(R)</script> makes the resulting relation be one with attributes <script type="math/tex">a_1, ..., a_n</script> and the same tuples as <script type="math/tex">R</script>. In SQL, the <code class="highlighter-rouge">AS</code> operator allows for remaining of attributes:</p>
+<p>Given relation <script type="math/tex">R</script>, <script type="math/tex">\rho_{R(a_1, ..., a_n}(R)</script> makes the resulting relation be one with attributes <script type="math/tex">a_1, ..., a_n</script> and the same tuples as <script type="math/tex">R</script>. In SQL, the <code class="language-plaintext highlighter-rouge">AS</code> operator allows for remaining of attributes:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT a AS apple, b AS banana
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT a AS apple, b AS banana
 FROM R
 </code></pre></div></div>
 

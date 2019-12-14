@@ -667,7 +667,7 @@
   <li>
     <h3 id="pseudocode-a-gradient-descent-in-python">Pseudocode a gradient descent in python?</h3>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>params = [wieghts_hidden, weights_output,bias_hidden, bias_output]
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>params = [wieghts_hidden, weights_output,bias_hidden, bias_output]
 def sgd(cost, params, lr=0.05)
 grads = T.grad(cost=cost, wrt=params)
 for p, g in zip(params, grads)

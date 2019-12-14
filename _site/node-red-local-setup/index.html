@@ -244,29 +244,29 @@
 
 <p>Installing Node.js is easy on Ubuntu 16.04 LTS by typing in the below command on the terminal:</p>
 
-<p><code class="highlighter-rouge">$ sudo apt-get install nodejs</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ sudo apt-get install nodejs</code></p>
 
 <p>Once the installation is done, check the version of the node by issue the command:</p>
 
-<p><code class="highlighter-rouge">$ node -v</code>
-<code class="highlighter-rouge">v8.9.4</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ node -v</code>
+<code class="language-plaintext highlighter-rouge">v8.9.4</code></p>
 
 <p>As Nodej.js uses a package manager called npm that allows in install and manage packages. Since Node-RED is an “over-layer graphics” of Node.js, it’s manadotary to install it.</p>
 
-<p><code class="highlighter-rouge">$ sudo apt-get install npm</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ sudo apt-get install npm</code></p>
 
 <p>When the installation is complete, check the version. If the things are fine, else error would be returned.</p>
 
-<p><code class="highlighter-rouge">$ npm -v</code>
-<code class="highlighter-rouge">6.8.0</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ npm -v</code>
+<code class="language-plaintext highlighter-rouge">6.8.0</code></p>
 
 <h3 id="installing-node-red">Installing Node-RED</h3>
 
 <p>To install Node-RED using npm and admin module which add few tools along, issue the command:</p>
 
-<p><code class="highlighter-rouge">sudo npm install -g --unsafe-perm node-red node-red-admin</code></p>
+<p><code class="language-plaintext highlighter-rouge">sudo npm install -g --unsafe-perm node-red node-red-admin</code></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Options: 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Options: 
   -g            - install the Node-RED module in the global directory
   -unsafe-perm  - overrides any errors that may occur during installation
 </code></pre></div></div>
@@ -275,11 +275,11 @@
 
 <p>Node-RED uses port 1880 by default. Hence, it must be enabled using UncomplicatedFirewall (ufw).</p>
 
-<p><code class="highlighter-rouge">$ sudo ufw allow 1880</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ sudo ufw allow 1880</code></p>
 
 <h3 id="runing-node-red-locally">Runing Node-RED locally:</h3>
 
-<p><code class="highlighter-rouge">$ node-red</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ node-red</code></p>
 
 
         

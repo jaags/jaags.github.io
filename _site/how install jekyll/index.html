@@ -196,6 +196,9 @@
     bundle 
     rake</p>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle install / bundle update
+</code></pre></div></div>
+
 <p>update ruby:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle install =&gt; to install all the packages provided in the gemfile
@@ -204,7 +207,10 @@ sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 </code></pre></div></div>
 
 <p>Running :
-     $ bundle exec jekyll serve –trace</p>
+     $ bundle exec jekyll serve –trace –incremental</p>
+
+<p>clean _site or metadata:
+    $ bundle exec jekyll clean</p>
 
         
       </section>

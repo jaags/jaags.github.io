@@ -7,6 +7,8 @@ deployment dependency:
     bundle 
     rake
 
+    $ bundle install / bundle update
+
 update ruby:
 
     bundle install => to install all the packages provided in the gemfile
@@ -15,4 +17,8 @@ update ruby:
 
 
 Running :
-     $ bundle exec jekyll serve --trace
+     $ bundle exec jekyll serve --trace --incremental
+
+
+clean _site or metadata:
+    $ bundle exec jekyll clean

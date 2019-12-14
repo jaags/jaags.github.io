@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/competitive_papers/",
         "teaser":"http://localhost:4000/images/IMG-20190710-WA0000.jpg"},{
         "title": "Measuring Similarity in ML",
-        "excerpt":"Measuring Similarity in ML    ","categories": [],
+        "excerpt":"Measuring Similarity in ML   ","categories": [],
         "tags": ["NLP","data science","similarities measure"],
         "url": "http://localhost:4000/measuring-similarity-in-ml/",
         "teaser":"http://localhost:4000/images/IMG-20190710-WA0000.jpg"},{
