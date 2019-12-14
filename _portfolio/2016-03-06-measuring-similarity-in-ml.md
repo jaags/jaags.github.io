@@ -15,7 +15,5 @@ toc_icon: "cog"
 
 ### Measuring Similarity in ML 
 
-{::nomarkdown}
-{% jupyter_notebook "sample.ipynb" %}
-{:/nomarkdown}
+
 
