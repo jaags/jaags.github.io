@@ -22,3 +22,9 @@ Running :
 
 clean _site or metadata:
     $ bundle exec jekyll clean
+
+
+jekyll menu file:
+    _config.yml
+
+
