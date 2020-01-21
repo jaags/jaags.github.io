@@ -3,7 +3,7 @@ layout: single
 title: "Vector Norm"
 permalink: /vector_norm/
 header:
-    teaser: "images/IMG-20190710-WA0000.jpg"
+    #teaser: "images/IMG-20190710-WA0000.jpg"
 mathjax: "true"
 toc: true
 toc_icon: "cog"

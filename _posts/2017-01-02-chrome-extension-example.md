@@ -5,7 +5,7 @@ permalink: /chrome-extension-example/
 date: 2017-01-02
 tags: [data wrangling, data science, Extensions]
 header:
-  teaser: "images/IMG-20190710-WA0000.jpg"
+  #teaser: "images/IMG-20190710-WA0000.jpg"
 excerpt: "Extensions, Chrome"
 mathjax: "true"
 toc: true

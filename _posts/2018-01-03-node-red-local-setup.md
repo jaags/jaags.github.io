@@ -5,7 +5,7 @@ date: 2018-01-03
 permalink: /node-red-local-setup/
 tags: [IOT, Internet of things]
 header:
-  teaser: "images/node-red-banner-install.png"
+  #teaser: "images/node-red-banner-install.png"
   image:  "images/node-red-banner-install.png"
 excerpt: "IOT, raspbery pi"
 mathjax: "true"

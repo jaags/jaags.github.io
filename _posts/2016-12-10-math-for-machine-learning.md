@@ -5,7 +5,7 @@ date: 2016-12-10
 permalink: /math-for-machine-learning/
 tags: [data wrangling, data science, Extensions]
 header:
-  teaser: "images/IMG-20190710-WA0000.jpg"
+  #teaser: "images/IMG-20190710-WA0000.jpg"
 excerpt: "Extensions, Chrome"
 mathjax: "true"
 toc: true

@@ -5,7 +5,7 @@ date: 2017-01-02
 permalink: /datasets-links/
 tags: [data wrangling, dataset, data science, Extensions]
 header:
-  teaser: "images/IMG-20190710-WA0000.jpg"
+  #teaser: "images/IMG-20190710-WA0000.jpg"
   image: "images/IMG-20190710-WA0000.jpg"
 excerpt: "Extensions, Chrome"
 mathjax: "true"

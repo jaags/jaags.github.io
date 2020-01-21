@@ -5,8 +5,8 @@ date: 2018-01-28
 permalink: /visualization-for-data/
 tags: [data wrangling, dataset, data science, messy data]
 header:
-  teaser: "/images/IMG_20181114_165012.jpg"
-  image:  "/images/IMG_20181114_165012.jpg"
+  #teaser: "/images/IMG_20181114_165012.jpg"
+  #image:  "/images/IMG_20181114_165012.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 toc: true

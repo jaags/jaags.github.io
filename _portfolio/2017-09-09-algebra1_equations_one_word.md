@@ -5,7 +5,7 @@ date: 2017-09-09
 permalink: /algebra1_equations_one_word/
 tags: [IOT, Internet of things]
 header:
-  teaser: "images/node-red-banner-install.png"
+  ##teaser: "images/node-red-banner-install.png"
   #image:  "images/node-red-banner-install.png"
 excerpt: "IOT, raspbery pi"
 mathjax: "true"
