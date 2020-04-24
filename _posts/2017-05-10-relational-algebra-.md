@@ -4,7 +4,7 @@ date: 2019-02-09
 permalink: /relational-algebra/
 tags: [data, math, SQL]
 header: 
-  teaser: "/images/perceptron/percept.jpg"
+  #teaser: "/images/perceptron/percept.jpg"
 excerpt: ""
 layout: single
 toc: true
