@@ -16,4 +16,12 @@ toc_icon: "cog"
 Ways to categorize the machine learning algorithm
 
 1. Classification or Regression
-2. Linear or Non-Linear
+    Use caess:
+        Stock is a regression data 
+        apple or orange is classification
+
+2. Linear or Non-Linear 
+
+3. Univariate or Multivariate
+
+
