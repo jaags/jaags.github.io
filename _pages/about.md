@@ -7,7 +7,7 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-Hello, my name is **Jagadeesh Kumar**, I'm a Software professional. Machine/Deep Learning Enthusiast.
+Hello, my name is **Jagadeesh Kumar**, I'm a Software professional and Machine/Deep Learning Enthusiast.
 
 The idea behind creating this channel is to gather and share, all the recent trends in machine learning, quantum computing and computer science and releated fields
 
