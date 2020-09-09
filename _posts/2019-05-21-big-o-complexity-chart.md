@@ -1,7 +1,7 @@
 ---
 #layout: single
 title: "Cheat Sheets"
-permalink: /chrome-extension-example/
+permalink: /2019-05-21-big-o-complexity-chart/
 date: 2018-10-02
 tags: [data wrangling, data science, Extensions]
 header:
