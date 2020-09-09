@@ -16,3 +16,7 @@ toc_icon: "cog"
  Big-O Complexity Chart
 
 <img src="/images/perceptron/bigcomplexity_chart.png">
+
+<img src="/images/perceptron/bigO-algo-chart.png">
+
+<img src="/images/perceptron/datastructure-cheatsheet.png">
