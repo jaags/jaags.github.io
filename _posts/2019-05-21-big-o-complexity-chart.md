@@ -3,10 +3,10 @@
 title: "Cheat Sheets"
 permalink: /2019-05-21-big-o-complexity-chart/
 date: 2018-10-02
-tags: [data wrangling, data science, Extensions]
+tags: [Analysis, data science, Big-O]
 header:
   #teaser: "images/IMG-20190710-WA0000.jpg"
-excerpt: "Extensions, Chrome"
+excerpt: "Analysis, Big-O"
 mathjax: "true"
 toc: true
 toc_icon: "cog"
