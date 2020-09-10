@@ -27,7 +27,7 @@ toc_icon: "cog"
 #df <- read_csv("some_file.csv")
 #head(df)
 #```
-#---
+---
 
 
 
