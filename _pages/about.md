@@ -4,7 +4,7 @@ layout: single
 author_profile: false
 permalink: "/about/"
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/waterfront.jpg"
 ---
 
 Hello, my name is **Jagadeesh Kumar**, I'm a Software professional and Machine/Deep Learning Enthusiast.
