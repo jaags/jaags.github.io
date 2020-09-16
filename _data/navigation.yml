@@ -13,90 +13,91 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
 
-MachineLearning:
-  - title:  Basics
-    children: 
-      - title: Vector Norm
-        url: /vector_norm/
-      - title: "Sigmoid Function"
-        url:  /sigmoid_function/
-      - title: "Sigmoid Gradient"
-        url:  /sigmoid_gradient/
-      - title: "Reshaping arrays"
-        url : /reshaping_arrays/
-      - title: Normalizing Rows
-        url : /normalizaing_rows/
-      - title: Broadcasting and Softmax Function
-        url: /broadcasting_softmax_function/
-      - title: Vectorization
-        url: /vectorization/
-      - title: L1 and L2 Loss Function
-        url: /l1_l2_loss_function/
+ 
+# MachineLearning:
+#   - title:  Basics
+#     children: 
+#       - title: Vector Norm
+#         url: /vector_norm/
+#       - title: "Sigmoid Function"
+#         url:  /sigmoid_function/
+#       - title: "Sigmoid Gradient"
+#         url:  /sigmoid_gradient/
+#       - title: "Reshaping arrays"
+#         url : /reshaping_arrays/
+#       - title: Normalizing Rows
+#         url : /normalizaing_rows/
+#       - title: Broadcasting and Softmax Function
+#         url: /broadcasting_softmax_function/
+#       - title: Vectorization
+#         url: /vectorization/
+#       - title: L1 and L2 Loss Function
+#         url: /l1_l2_loss_function/
   
-  - title: Cheat Sheets
-    children:
-      - title: Interview Questions
-        url: /interview_questions/
-      - title: "Scala"
-        url: /scala_cs/
-      - title: "Numpy"
-        url: /numpy_cs/
-      - title: "ML_Algorithms"
-        url: /ml_algorithms_cs/
-      - title: "Unix"
-        url: /unix_cs/
-  - title: Architectures
-    children:
-      - title: "Architecture_Chatbot"
-        url: /arch_chatbot/
-      - title: "Self-Driving Car"
-        url: /arch_self_driving/
-  - title:  Projects
-    children: 
-      - title: "Chatbot"
-        url:  /MachineLearning/chatbot/
-      - title: "Artcile Generation"
-        url: /MachineLearning/article_genearation/
-      - title: "Question To Am Image"
-        url: /MachineLearning/article_genearation/
-  - title:  Supervised Learning
-    children:
-      - title: "Discriminative Algorithm"
-        url: /MachineLearning/sv_discriminative_model/
-      - title: "Generative Algorithm"
-        url: /MachineLearning/sv_generative_model/
-      - title: "Support Vector Machine"
-        url: /MachineLearning/sv_svm/
-      - title: "Bias and Variance Tradeoff"
-        url: /MachineLearning/sv_bias_variance_tradeoff/
-      - title: "Learning Theory"
-        url: /MachineLearning/sv_learning_theory/
-      - title: "Regularization and Model Selection"
-        url: /MachineLearning/sv_regularization_model_selection/
-      - title: "Online Learning and Perceptron"
-        url: /MachineLearning/sv_online_learning_perceptron/
-      - title: "Decision Trees"
-        url: /MachineLearning/sv_trees/
-      - title: "Boosting"
-        url: /MachineLearning/sv_boost/
-  - title:  Deep Learning
-    children:
-      - title: "Neural Networks"
-        url: /MachineLearning/dl_neural_network/
-      - title: "Backpropagation"
-        url: /MachineLearning/dl_propagtion/
-  - title:  Unsupervised Learning
-    children:
-      - title: "K-means Clustering"
-        url: /MachineLearning/usv_kmeans/
-      - title: "EM Algorithm"
-        url: /MachineLearning/usv_em/
-  - title: Production
-    children:
-      - title: "Deployment"
-        url: /dfdasf/
-      - title: "Infrastructure"
-        url: /sadf/
+#   - title: Cheat Sheets
+#     children:
+#       - title: Interview Questions
+#         url: /interview_questions/
+#       - title: "Scala"
+#         url: /scala_cs/
+#       - title: "Numpy"
+#         url: /numpy_cs/
+#       - title: "ML_Algorithms"
+#         url: /ml_algorithms_cs/
+#       - title: "Unix"
+#         url: /unix_cs/
+#   - title: Architectures
+#     children:
+#       - title: "Architecture_Chatbot"
+#         url: /arch_chatbot/
+#       - title: "Self-Driving Car"
+#         url: /arch_self_driving/
+#   - title:  Projects
+#     children: 
+#       - title: "Chatbot"
+#         url:  /MachineLearning/chatbot/
+#       - title: "Artcile Generation"
+#         url: /MachineLearning/article_genearation/
+#       - title: "Question To Am Image"
+#         url: /MachineLearning/article_genearation/
+#   - title:  Supervised Learning
+#     children:
+#       - title: "Discriminative Algorithm"
+#         url: /MachineLearning/sv_discriminative_model/
+#       - title: "Generative Algorithm"
+#         url: /MachineLearning/sv_generative_model/
+#       - title: "Support Vector Machine"
+#         url: /MachineLearning/sv_svm/
+#       - title: "Bias and Variance Tradeoff"
+#         url: /MachineLearning/sv_bias_variance_tradeoff/
+#       - title: "Learning Theory"
+#         url: /MachineLearning/sv_learning_theory/
+#       - title: "Regularization and Model Selection"
+#         url: /MachineLearning/sv_regularization_model_selection/
+#       - title: "Online Learning and Perceptron"
+#         url: /MachineLearning/sv_online_learning_perceptron/
+#       - title: "Decision Trees"
+#         url: /MachineLearning/sv_trees/
+#       - title: "Boosting"
+#         url: /MachineLearning/sv_boost/
+#   - title:  Deep Learning
+#     children:
+#       - title: "Neural Networks"
+#         url: /MachineLearning/dl_neural_network/
+#       - title: "Backpropagation"
+#         url: /MachineLearning/dl_propagtion/
+#   - title:  Unsupervised Learning
+#     children:
+#       - title: "K-means Clustering"
+#         url: /MachineLearning/usv_kmeans/
+#       - title: "EM Algorithm"
+#         url: /MachineLearning/usv_em/
+#   - title: Production
+#     children:
+#       - title: "Deployment"
+#         url: /dfdasf/
+#       - title: "Infrastructure"
+#         url: /sadf/
 
 
             
