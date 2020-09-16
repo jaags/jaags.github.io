@@ -5,7 +5,7 @@ date: 2017-01-02
 permalink: /neo4j-graph-fro-machine-learning/
 tags: [data wrangling, data science, Extensions]
 header:
-  teaser: "/images/perceptron/percept.jpg"
+  #teaser: "/images/perceptron/percept.jpg"
 excerpt: "Extensions, Chrome"
 mathjax: "true"
 toc: true

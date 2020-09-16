@@ -5,7 +5,7 @@ date: 2018-01-28
 permalink: /mobile-glass-defects-detection/
 tags: [data wrangling, data science, messy data]
 header:
-  teaser: "/images/perceptron/percept.jpg"
+  #teaser: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data, Computer Vision"
 mathjax: "true"
 toc: true
