@@ -120,4 +120,6 @@ There are times when a simple chart just cannot tell the whole story. If you wan
   <img src="/images/visualize/data_visualization_multi_axes_charts.png">
 </div>
 
-For further reading refer to the link <https://eazybi.com/blog/data_visualization_and_chart_types#:~:text=Bar%20charts%20are%20good%20for,never%20for%20comparisons%20or%20distributions.>
+For further reading refer to the 
+
+<a href="https://eazybi.com/blog/data_visualization_and_chart_types#:~:text=Bar%20charts%20are%20good%20for,never%20for%20comparisons%20or%20distributions" target="_blank">link</a> 
