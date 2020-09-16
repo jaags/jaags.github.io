@@ -14,16 +14,18 @@ toc_icon: "cog"
 ---
 
 
-There are four basic presentation types that you can use to present your data:
+<div class="row">
+  <div class="column"></div>
+  There are four basic presentation types that you can use to present your data:
 
 - Comparison
 - Composition
 - Distribution
 - Relationship
 
-  <img src="/images/visualize/chat-selection-diagram.png">
-
-
+  <div class="column"></div>
+  <img src="/images/visualize/chart-selection-diagram.png">
+</div>
 ### Tables 
 
 <div class="row">
