@@ -8,9 +8,9 @@ entries_layout: grid
 #classes: wide
 author_profile: false
 #category: MachineLearning
-related_img: "/images/fort point.png" 
+related_img: "/images/ai_image_01.jpg" 
 header:
-  image: "/images/fort point.png"
+  image: "/images/ai_image_01.jpg"
 sort_by: date
 sort_order: reverse 
 toc_sticky: true

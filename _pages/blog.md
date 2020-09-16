@@ -4,12 +4,12 @@ layout: archive
 permalink: /blog/
 classes: wide
 author_profile: true
-related_img: "/images/fort point.png" 
+related_img: "/images/ai_image_02.jpeg" 
 header:
-  image: "/images/fort point.png"
+  image: "/images/ai_image_02.jpeg"
 sort_by: date
 sort_order: reverse 
-og_image: "/images/fort point.png"
+og_image: "/images/ai_image_02.jpeg"
 sidebar: true
 ---
 
