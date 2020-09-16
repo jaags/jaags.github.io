@@ -26,17 +26,31 @@ There are four basic presentation types that you can use to present your data:
 
 ### Tables 
 
+<div class="row">
+  <div class="column"></div>
 Tables are essentially the source for all the charts. They are best used for comparison, composition, or relationship analysis when there are only few variables and data points.
 
 
-### Column Charts
+  <div class="column"></div>
+  <img src="/images/visualize/data_visualization_table_chart.png">
+</div>
 
+### Column Charts
+<div class="row">
+  <div class="column"></div>
 The column chart is probably the most used chart type. This chart is best used to compare different values when specific values are important, and it is expected that users will look up and compare individual values between each column.
 
+<div class="column"></div>
+  <img src="/images/visualize/data_visualization_column_chart.png">
+</div>
 ### Column Histograms
 
+<div class="row">
+  <div class="column"></div>
 Histogram is a common variation of column charts used to present distribution and relationships of a single variable over a set of categories. A good example of a histogram would be a distribution of grades on a school exam or the sizes of pumpkins, divided by size group, in a pumpkin festival.
-
+<div class="column"></div>
+  <img src="/images/visualize/data_visualization_column_chart.png">
+</div>
 
 ### Stacked Column Charts
 
