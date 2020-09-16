@@ -113,8 +113,11 @@ Gauge charts are good for displaying KPIs (Key Performance Indicators). They typ
 
 ### Multi Axes Charts
 
-  <img src="data_visualization_multi_axes_charts.png">
+<div class="row">
+  <div class="column"></div>
 There are times when a simple chart just cannot tell the whole story. If you want to show relationships and compare variables on vastly different scales, the best option might be to have multiple axes.
-
+  <div class="column"></div>
+  <img src="/images/visualize/data_visualization_multi_axes_charts.png">
+</div>
 
 For further reading refer to the link <https://eazybi.com/blog/data_visualization_and_chart_types#:~:text=Bar%20charts%20are%20good%20for,never%20for%20comparisons%20or%20distributions.>
