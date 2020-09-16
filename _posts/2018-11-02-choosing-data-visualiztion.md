@@ -21,7 +21,7 @@ There are four basic presentation types that you can use to present your data:
 - Distribution
 - Relationship
 
-<img src="/images/visualize/chat-selection-diagram.png">
+  <img src="/images/visualize/chat-selection-diagram.png">
 
 
 ### Tables 
@@ -111,7 +111,7 @@ Gauge charts are good for displaying KPIs (Key Performance Indicators). They typ
 
 ### Multi Axes Charts
 
-<img src="data_visualization_multi_axes_charts.png">
+  <img src="data_visualization_multi_axes_charts.png">
 There are times when a simple chart just cannot tell the whole story. If you want to show relationships and compare variables on vastly different scales, the best option might be to have multiple axes.
 
 
