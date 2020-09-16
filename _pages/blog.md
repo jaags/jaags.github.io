@@ -4,12 +4,12 @@ layout: archive
 permalink: /blog/
 classes: wide
 author_profile: true
-related_img: "/images/ai_image_02.jpeg" 
+related_img: "/images/ai_image_01.jpeg" 
 header:
-  image: "/images/ai_image_02.jpeg"
+  image: "/images/ai_image_01.jpeg"
 sort_by: date
 sort_order: reverse 
-og_image: "/images/ai_image_02.jpeg"
+og_image: "/images/ai_image_01.jpeg"
 sidebar: true
 ---
 
